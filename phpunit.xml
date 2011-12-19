@@ -1,0 +1,18 @@
+<phpunit 
+  backupGlobals               = "true"
+  backupStaticAttributes      = "true"
+  colors                      = "true"
+  convertErrorsToExceptions   = "true"
+  convertNoticesToExceptions  = "true"
+  convertWarningsToExceptions = "true"
+  processIsolation            = "false"
+  stopOnFailure               = "false"
+  syntaxCheck                 = "false"
+  bootstrap="./test/test_helper.php">
+
+  <testsuites>
+    <testsuite name="All Tests">
+      <directory>./test</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
